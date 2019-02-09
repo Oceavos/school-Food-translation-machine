@@ -31,7 +31,6 @@ while True:
     ''')
     select = int(input("무엇을 하시겠습니까? : "))
 
-
     # 급식어 -> 한국어 번역
     if select == 1:
         translate_1 = input("변환을 원하는 급식단어를 입력해주십시오. : ")
@@ -54,7 +53,6 @@ while True:
                   "[" + translate_2 + "] 의 급식어로 변환 결과 : " + school_food_language_pack.dic.school_food_2_Korean[translate_2])
 
             continueee = int(input("\n\n계속 진행하시겠습니까? \n 1. 예 \n 2. 프로그램 종료 \n\n\ 입력 : "))
-
             if continueee == 2:
                 sys.exit()
 
